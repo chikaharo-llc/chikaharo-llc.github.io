@@ -1,88 +1,83 @@
-/* Reset de estilos para quitar márgenes y rellenos por defecto */
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    background-color: #e7f6e9; /* Color de fondo gris claro */
 }
 
-/* Estilos para el contenedor */
 .container {
-    max-width: 1200px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Estilos para el encabezado */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #2E7D32; /* Verde oscuro */
+    color: #fff; /* Texto blanco */
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
-/* Estilos para el título principal */
-h1 {
+header h1 {
     font-size: 36px;
-    margin-bottom: 10px;
 }
 
-/* Estilos para el subtítulo */
-h2 {
-    font-size: 18px;
+header h2 {
+    font-size: 24px;
 }
 
-/* Estilos para el menú de navegación */
 nav ul {
+    background-color: #4CAF50; /* Verde ligeramente más claro */
     list-style: none;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px; /* Padding reducido para el menú principal */
+    border: 1px solid #2E7D32; /* Borde menos prominente para el menú principal */
+    border-radius: 5px;
 }
 
-nav li {
+nav ul li {
     display: inline;
     margin: 0 20px;
 }
 
-nav a {
+nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-weight: bold;
 }
 
-/* Estilos para las secciones */
+nav ul li a:hover {
+    color: #2E7D32; /* Verde oscuro */
+}
+
 section {
-    background-color: #fff;
-    margin-top: 20px;
-    padding: 30px 0;
-    border: 1px solid #ccc;
+    margin: 0;
+    padding: 20px;
+    background-color: #E8F5E9; /* Verde claro */
+    border-radius: 2px; /* Border-radius reducido a 2px */
+    border: 1px solid #2E7D32; /* Línea divisoria */
 }
 
-/* Estilos para la lista de servicios */
+section h2 {
+    color: #2E7D32; /* Verde oscuro */
+}
+
 ul {
-    list-style: none;
-    text-align: left;
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #333;
 }
 
-li {
-    margin: 10px 0;
-}
-
-/* Estilos para el pie de página */
 footer {
-    background-color: #333;
+    background-color: #2E7D32; /* Verde oscuro */
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
 
-/* Estilos para el enlace de contacto */
-a {
-    text-decoration: none;
-    color: #007bff;
-    font-weight: bold;
+/* Estilos adicionales para las columnas */
+footer .container {
+    display: flex;
+    justify-content: space-between; /* Dos columnas con espacio entre ellas */
+    align-items: center; /* Centra verticalmente el contenido */
 }
