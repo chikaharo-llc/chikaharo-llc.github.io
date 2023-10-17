@@ -1,0 +1,88 @@
+/* Reset de estilos para quitar márgenes y rellenos por defecto */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Estilos para el contenedor */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Estilos para el título principal */
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el subtítulo */
+h2 {
+    font-size: 18px;
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos para las secciones */
+section {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 30px 0;
+    border: 1px solid #ccc;
+}
+
+/* Estilos para la lista de servicios */
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para el enlace de contacto */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
