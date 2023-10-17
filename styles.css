@@ -27,17 +27,25 @@ header h2 {
 }
 
 nav ul {
-    background-color: #4CAF50; /* Verde ligeramente más claro */
+    background-color: #4CAF50; /* Color de fondo similar al de las otras secciones */
     list-style: none;
     text-align: center;
-    padding: 10px; /* Padding reducido para el menú principal */
-    border: 1px solid #2E7D32; /* Borde menos prominente para el menú principal */
+    padding: 10px;
+    border: 1px solid #2E7D32;
     border-radius: 5px;
 }
 
 nav ul li {
     display: inline;
     margin: 0 20px;
+    position: relative;
+}
+
+nav ul li:not(:last-child)::after {
+    content: "|"; /* Agrega una línea vertical como separador */
+    position: absolute;
+    right: -20px;
+    color: #2E7D32; /* Color de la línea vertical */
 }
 
 nav ul li a {
